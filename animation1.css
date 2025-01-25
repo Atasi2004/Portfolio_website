@@ -285,10 +285,10 @@ body{
 #project-list h2{
     color: #e6dddd;
 }
-#project-list p{
+.project-list p{
     color: rgb(189, 190, 190);
 }
-#project-list div{
+.project-list div{
     background-color: #424141;
     padding: 40px;
     font-size: 13px;
@@ -296,22 +296,22 @@ body{
     border-radius: 3px;
     transition: 0.5s;
 }
-#project-list div:hover{
+.project-list div:hover{
     transform: translateY(-10px);
     box-shadow: 0 0 15px 1px rgb(126, 200, 223);
     background-color: #1260b8;
     color: #fff;
 }
-#project-list div i{
+.project-list div i{
     font-size: 50px;
     margin-bottom: 15px;
     color: #fff;
 }
-#project-list div h2{
+.project-list div h2{
     font-size: 20px;
     margin-bottom: 10px;
 }
-#project-list div a{
+.project-list div a{
     text-decoration: none;
     font-size: 12px;
     margin-top: 20px;
